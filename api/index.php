@@ -46,5 +46,6 @@ curl_close($ch);
 // Définir les headers de réponse
 header("Content-Type: " . ($contentType ?: "text/html"));
 http_response_code($httpCode);
+echo "TEST"
 echo $response;
 ?>
